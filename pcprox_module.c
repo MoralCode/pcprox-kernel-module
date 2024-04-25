@@ -7,6 +7,8 @@
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/usb.h>
+#include <linux/printk.h> /* Needed for pr_info() */ 
+
 
 static struct usb_device_id pcprox_table[] = {
     { USB_DEVICE(0x0c27, 0x3bfa) },
