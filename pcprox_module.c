@@ -53,5 +53,5 @@ module_init(pcprox_init);
 module_exit(pcprox_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("Adrian Edwards");
 MODULE_DESCRIPTION("PCProx USB RF Card Reader Module");
