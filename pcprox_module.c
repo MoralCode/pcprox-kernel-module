@@ -1,3 +1,9 @@
+/* 
+
+ * pcprox_module.c - The simplest kernel module. 
+
+ */ 
+
 #include <linux/module.h>
 #include <linux/kernel.h>
 #include <linux/usb.h>
