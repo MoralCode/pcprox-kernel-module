@@ -3,7 +3,7 @@
 #include <linux/usb.h>
 
 static struct usb_device_id pcprox_table[] = {
-    { USB_DEVICE(0x1234, 0x5678) }, // Replace with your vendor and device IDs
+    { USB_DEVICE(0x0c27, 0x3bfa) },
     {}
 };
 
